@@ -17,12 +17,12 @@
 Adafruit_ADS1115 ads;
 //#define MQ135PIN 14
 
-#define WIFI_SSID "mknr"
-#define WIFI_PASSWORD "56715681NR"
+#define WIFI_SSID "WIFI_SSID"
+#define WIFI_PASSWORD "WIFI_PASSWORD"
 
-const char* SCOPE_ID = "0ne00A0F2E3";
-const char* DEVICE_ID = "cropmonitoring";
-const char* DEVICE_KEY = "oY4EbmDdylrUkKXk87utmNihLCRZBYqh86ufvcqjq3s=";
+const char* SCOPE_ID = "SCOPE_ID";
+const char* DEVICE_ID = "DEVICE_ID";
+const char* DEVICE_KEY = "DEVICE_KEY=";
 
 DHT dht(DHTPIN, DHTTYPE);
 
